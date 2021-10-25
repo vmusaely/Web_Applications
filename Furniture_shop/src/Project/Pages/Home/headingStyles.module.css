@@ -1,0 +1,28 @@
+.heading {
+    position: relative;
+    height: 868px;
+    background: url("../../../utils/images/header_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    font-family: Canvas;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.headerText {
+    margin-top: 150px;
+    font-size: 64px;
+    line-height: 74px;
+    color: #780202;
+}
+
+.btn {
+    margin-top: 80px;
+    line-height: 30px;
+    font-size: 18px;
+    line-height: 21px;
+    width: 120px;
+}

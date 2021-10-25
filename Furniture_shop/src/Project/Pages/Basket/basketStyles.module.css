@@ -1,0 +1,82 @@
+.container {
+    height: 100vh;
+}
+
+.priceArea {
+    width: 248px;
+    height: 101px;
+    padding-top: 10px;
+    background-color: #EEEEEE;
+    margin: auto;
+    position: relative;
+    left: 50%;
+    top: 40%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.sofaFrancesca {
+    font-family: MADE Canvas;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: black;
+}
+
+.sofaFrancesca:hover {
+    color: black;
+}
+
+.price {
+    font-family: MADE Canvas;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #780202;
+    margin: 5px;
+}
+
+.add {
+    width: 120px;
+    height: 40px;
+    background-color: #780202;
+    margin: auto;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: MADE Canvas;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.add:hover {
+    color: #ffffff;
+}
+
+.sofa1 {
+    width: 377px;
+    height: 441px;
+    background-image: url('../../../utils/images/sofa1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.sofa2 {
+    width: 377px;
+    height: 441px;
+    background-image: url('../../../utils/images/sofa2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.bg {
+    display: flex;
+    justify-content: center;
+}

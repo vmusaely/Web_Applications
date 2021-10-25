@@ -1,0 +1,121 @@
+.header {
+    margin: 50px 0;
+    text-align: center;
+    font-family: MADE Canvas;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: capitalize;
+    color: #780202;
+}
+
+.text {
+    width: 50%;
+    margin: auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.livingroom {
+    width: 575px;
+    height: 611px;
+    grid-area: livingroom;
+    background-image: url("../../../utils/images/livingroom.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.kitchen {
+    width: 575px;
+    height: 305px;
+    grid-area: kitchen;
+    background-image: url("../../../utils/images/kitchen.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.bedroom {
+    width: 575px;
+    height: 305px;
+    grid-area: bedroom;
+    background-image: url("../../../utils/images/bedroom.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.bathroom {
+    width: 575px;
+    height: 611px;
+    grid-area: bathroom;
+    background-image: url("../../../utils/images/bathroom.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-areas: 'livingroom kitchen' 'livingroom bathroom' 'bedroom bathroom';
+    grid-column-gap: 10px;
+    height: 1200px;
+    padding: 0 130px;
+}
+
+.special {
+    position: relative;
+    bottom: 305px;
+}
+
+.links {
+    display: block;
+    margin-top: 25px;
+    font-family: MADE Canvas;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 147.19%;
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+    transition: transform .8s;
+}
+
+.links:hover {
+    transform: scale(1.03);
+    color: black;
+}
+
+.sofaFrancesca {
+    font-family: MADE Canvas;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: black;
+}
+
+.sofaFrancesca:hover {
+    color: black;
+}
+
+.footer {
+    margin-top: 100px;
+    background-color: #E4DBF7;
+    line-height: 250px;
+    text-align: center;
+    width: auto;
+    font-size: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    background-color: #EEEEEE;
+}

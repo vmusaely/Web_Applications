@@ -1,0 +1,90 @@
+.card {
+    width: 595px;
+    height: 346px;
+    background: #780202;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+    z-index: 1;
+}
+
+.accept {
+    position: relative;
+    left: -20px;
+    top: 50%;
+    height: 316px;
+    width: 300px;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    font-family: MADE Canvas;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+}
+
+.price {
+    font-family: MADE Canvas;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #780202;
+}
+
+.btn {
+    width: 170px;
+    height: 50px;
+    background-color: #780202;
+    margin: auto;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: MADE Canvas;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    border: none;
+    border-radius: 5px;
+}
+
+.redCircle {
+    width: 30px;
+    height: 30px;
+    background-color: #EB001B;
+    border-radius: 50%;
+}
+
+.yellowCircle {
+    position: relative;
+    left: -10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #F7801B;
+    opacity: .8;
+}
+
+.line {
+    border-bottom: 1px solid rgba(255, 255, 255, .6);
+    margin-bottom: 30px;
+}
+
+.line>span {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, .9);
+}

@@ -1,0 +1,26 @@
+.title {
+    line-height: 40px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.cardX {
+    border-bottom: 2px solid #add8e6;
+    box-shadow: #add8e6 0px 5px 15px;
+}
+
+.cardY {
+    border-bottom: 2px solid grey;
+    box-shadow: grey 0px 0px 25px;
+}
+
+.content {
+    font-size: 15px;
+}
+
+.container {
+    margin-top: 30px;
+    padding: 0px 70px;
+}

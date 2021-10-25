@@ -1,0 +1,120 @@
+body {
+    padding: 0 115px;
+}
+
+.sofa {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 10px;
+    padding: 0 100px;
+}
+
+.rectangle {
+    width: 248px;
+    height: 481px;
+    background: #EEEEEE;
+    margin-right: 20px;
+}
+
+.sofa1 {
+    position: relative;
+    left: -24px;
+    bottom: 447px;
+    height: 346px;
+    background-image: url("../../../utils/images/sofa1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.sofa2 {
+    margin-top: 45px;
+    height: 346px;
+    background-image: url("../../../utils/images/sofa2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.sofa3 {
+    margin-top: 45px;
+    height: 346px;
+    background-image: url("../../../utils/images/sofa3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.sofa4 {
+    margin-top: 45px;
+    height: 346px;
+    background-image: url("../../../utils/images/sofa4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.priceArea {
+    width: 248px;
+    height: 101px;
+    padding-top: 10px;
+    background-color: #EEEEEE;
+    margin: auto;
+    position: relative;
+    top: 315px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.priceAreaX {
+    width: 248px;
+    height: 101px;
+    padding-top: 10px;
+    background-color: #EEEEEE;
+    margin: auto;
+    position: relative;
+    top: 380px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.sofaFrancesca {
+    font-family: MADE Canvas;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: black;
+}
+
+.sofaFrancesca:hover {
+    color: black;
+}
+
+.price {
+    font-family: MADE Canvas;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #780202;
+    margin: 5px;
+}
+
+.add {
+    width: 120px;
+    height: 40px;
+    background-color: #780202;
+    margin: auto;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: MADE Canvas;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.add:hover {
+    color: #ffffff;
+}

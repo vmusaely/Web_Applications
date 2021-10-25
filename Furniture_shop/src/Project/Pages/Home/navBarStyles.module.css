@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    padding: 45px 50px 0 143px;
+}
+
+.logoText {
+    position: relative;
+    left: -50px;
+    bottom: -20px;
+}
+
+.links {
+    margin-left: 20px;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none !important;
+    color: black;
+}
+
+.links:hover {
+    color: black;
+}
+
+.activeLink {
+    color: #780202 !important;
+}
+
+.icon {
+    color: black;
+}
+
+.icon:hover {
+    color: black;
+}

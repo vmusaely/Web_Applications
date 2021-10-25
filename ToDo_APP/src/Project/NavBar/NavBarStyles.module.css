@@ -1,0 +1,13 @@
+.link {
+    width: 100px;
+    font-size: 20px;
+}
+
+.activeLink {
+    color: red;
+}
+
+.link:hover {
+    color: rgba(20, 128, 255, .7);
+    transition: .8s all;
+}
